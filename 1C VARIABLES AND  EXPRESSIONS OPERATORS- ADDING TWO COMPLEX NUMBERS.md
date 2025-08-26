@@ -1,26 +1,33 @@
 # Experiment No: 1c-Varibles and Expressions, Operators - Adding Two Complex Numbers
 
 ## AIM
-To write a Python program for adding two complex numbers, and get the user input using the `eval()` function.
-
+To Write a python program for bitwise shift operators on the user given integers
 ## ALGORITHM
-1. Begin the program.
-2. Use the `eval()` function to get two complex numbers as input from the user.
-3. Print the complex numbers entered by the user.
-4. Perform the addition of the two complex numbers using the `+` operator.
-5. Print the sum of the two complex numbers.
-6. Terminate the program.
-
+1. Start the program.
+2. Read two integer inputs from the user: one as num (the number) and the other as shift (the number of positions to shift).
+3. Perform right shift: calculate right_shift = num >> shift.
+4. Perform left shift: calculate left_shift = num << shift.
+5. Print the results of both the right shift and left shift operations.
 ## PROGRAM
 ```python
-# Reg.No-
-#Name-
+# Reg.No-212223060109
+#Name-kamali R
 #Write your code here
 
+num = int(input())
+shift = int(input())
+
+right_shift = num >> shift  
+left_shift = num << shift    
+
+print(right_shift)  
+print(left_shift)  
 ```
 
+
 ## OUTPUT
+<img width="991" height="257" alt="image" src="https://github.com/user-attachments/assets/768af655-baf2-4701-99a5-23db2b4856ac" />
 
 
 ## RESULT
-Thus the python program for  adding two complex numbers has been implemented and executed successfully.
+Thus the python program for bitwise shift operators on the user given integers is executed successfully.
